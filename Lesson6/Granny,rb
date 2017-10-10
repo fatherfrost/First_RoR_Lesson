@@ -1,0 +1,13 @@
+granny = gets.chomp
+while granny != "ПОКА!" + "ПОКА!" + "ПОКА!"
+if granny = "ПОКА!" || "ПОКА!" + "ПОКА!"
+puts "...."
+end
+if granny == granny.upcase
+year = 1930 + rand(20)
+puts 'НЕТ, НИ РАЗУ С ' + year.to_s + ' ГОДА!'
+else 
+puts "АСЬ?! ГОВОРИ ГРОМЧЕ, ВНУЧЕК!"
+end
+granny = gets.chomp
+end
